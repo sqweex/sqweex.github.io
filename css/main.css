@@ -1,0 +1,341 @@
+@font-face {
+  font-family: 'MuseoSansBold';
+  src: url("../fonts/MuseoSans/MuseoSansBold/MuseoSansBold.eot");
+  src: url("../fonts/MuseoSans/MuseoSansBold/MuseoSansBold.eot?#iefix") format("embedded-opentype"), url("../fonts/MuseoSans/MuseoSansBold/MuseoSansBold.woff2") format("woff2"), url("../fonts/MuseoSans/MuseoSansBold/MuseoSansBold.woff") format("woff"), url("../fonts/MuseoSans/MuseoSansBold/MuseoSansBold.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'MuseoSansMedium';
+  src: url("../fonts/MuseoSans/MuseoSansMedium/MuseoSansMedium.eot");
+  src: url("../fonts/MuseoSans/MuseoSansMedium/MuseoSansMedium.eot?#iefix") format("embedded-opentype"), url("../fonts/MuseoSans/MuseoSansMedium/MuseoSansMedium.woff2") format("woff2"), url("../fonts/MuseoSans/MuseoSansMedium/MuseoSansMedium.woff") format("woff"), url("../fonts/MuseoSans/MuseoSansMedium/MuseoSansMedium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'MuseoSansBold';
+  src: url("../fonts/MuseoSans/MuseoSansBold/MuseoSansBold.eot");
+  src: url("../fonts/MuseoSans/MuseoSansBold/MuseoSansBold.eot?#iefix") format("embedded-opentype"), url("../fonts/MuseoSans/MuseoSansBold/MuseoSansBold.woff2") format("woff2"), url("../fonts/MuseoSans/MuseoSansBold/MuseoSansBold.woff") format("woff"), url("../fonts/MuseoSans/MuseoSansBold/MuseoSansBold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+}
+
+button {
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+input {
+  outline: none;
+}
+
+body {
+  overflow-x: hidden;
+  font-family: "MuseoSansRegular", sans-serif;
+  color: #5e6577;
+}
+
+.container {
+  max-width: 940px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+h2 {
+  font-family: "MuseoSansBold", sans-serif;
+  font-size: 36px;
+}
+
+.header-top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 15px 0 15px 0;
+}
+
+.header__info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.header__phone {
+  font-size: 24px;
+  color: #5e6577;
+  text-decoration: none;
+  font-family: "MuseoSansBold", sans-serif;
+}
+
+.header__order {
+  font-size: 14px;
+  font-family: "MuseoSansMedium", sans-serif;
+  color: #5892a6;
+  background-color: inherit;
+  text-decoration: underline;
+  display: block;
+  text-align: right;
+}
+
+.header__order:hover {
+  color: #5ea5bd;
+}
+
+.header__content {
+  background: #000 url("../images/header-bg.jpg") no-repeat;
+  background-size: cover;
+  max-height: 580px;
+}
+
+.header__inner {
+  padding: 90px 0 60px 0;
+  text-align: right;
+}
+
+.header__title {
+  font-family: "MuseoSansBold", sans-serif;
+  font-size: 41px;
+}
+
+.header__subtitle {
+  font-family: "MuseoSansMedium", sans-serif;
+  font-size: 27px;
+  color: #5892a6;
+  margin-top: 15px;
+}
+
+.header .form-order {
+  margin-top: 70px;
+  background-color: #fff;
+  padding: 45px 30px 45px 30px;
+  display: inline-block;
+  text-align: center;
+  -webkit-box-shadow: 0px 0px 20px -4px #68b0c9;
+          box-shadow: 0px 0px 20px -4px #68b0c9;
+  border-radius: 17px;
+}
+
+.header .form__title {
+  font-size: 20px;
+  font-family: "MuseoSansBold", sans-serif;
+  color: #5892a6;
+}
+
+.header .form__subtitle {
+  font-size: 12px;
+  color: #000;
+  margin-top: 10px;
+}
+
+.header .form__phone {
+  margin-top: 15px;
+  display: inline-block;
+  font-family: "MuseoSansMedium", sans-serif;
+  border-radius: 25px;
+  border: 1px solid #e8e8e8;
+  text-align: center;
+  padding: 10px 0;
+  width: 100%;
+}
+
+.header .form__btn {
+  display: block;
+  margin: 0 auto;
+  margin-top: 10px;
+  border-radius: 25px;
+  text-transform: uppercase;
+  color: #fff;
+  font-family: "MuseoSansBold", sans-serif;
+  padding: 10px 0;
+  width: 100%;
+  background-color: #68b0c9;
+  -webkit-box-shadow: 0px 120px 99px 0px rgba(104, 176, 201, 0.72);
+          box-shadow: 0px 120px 99px 0px rgba(104, 176, 201, 0.72);
+}
+
+.header .form__btn:hover {
+  background-color: #5ea5bd;
+}
+
+@media (max-width: 480px) {
+  .header .header-top {
+    display: block;
+    text-align: center;
+  }
+  .header .header__info {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .header .header__title {
+    font-size: 30px;
+    color: #fff;
+  }
+  .header .header__subtitle {
+    font-size: 15px;
+    color: #fff;
+  }
+  .header .header__inner {
+    text-align: center;
+    padding: 60px 0;
+  }
+}
+
+@media (max-width: 480px) {
+  .header .header__title {
+    font-size: 20px;
+    color: #fff;
+  }
+  .header .header__subtitle {
+    font-size: 15px;
+    color: #fff;
+  }
+  .header .header__inner {
+    text-align: center;
+    padding: 30px 0;
+  }
+}
+
+.advantages {
+  padding: 85px 0;
+}
+
+.advantages__title {
+  text-align: center;
+}
+
+.advantages__list {
+  margin-top: 90px;
+}
+
+.advantages__item {
+  margin-top: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+}
+
+.advantages__item::before {
+  content: '';
+  background: url("../images/arrow-next.png");
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  top: 0;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  width: 199px;
+  height: 52px;
+}
+
+.advantages__item:first-child {
+  margin-top: 0;
+}
+
+.advantages__item:nth-child(2)::before {
+  background: url("../images/arrow-prev.png");
+}
+
+.advantages__item img {
+  -webkit-box-shadow: 0px 55px 38px -49px #191619;
+          box-shadow: 0px 55px 38px -49px #191619;
+  border-radius: 50%;
+}
+
+.advantages__text {
+  max-width: 390px;
+}
+
+.advantages h3 {
+  font-size: 30px;
+  font-family: "MuseoSansBold", sans-serif;
+  color: #68b0c9;
+}
+
+.advantages p {
+  font-size: 18px;
+  margin-top: 40px;
+}
+
+@media (max-width: 768px) {
+  .advantages .advantages__list {
+    text-align: center;
+  }
+  .advantages .advantages__item {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .advantages .advantages__item::before {
+    content: '';
+    display: none;
+  }
+  .advantages .advantages__item h3 {
+    text-align: center;
+  }
+  .advantages .advantages__item:nth-child(2) {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+  .advantages .advantages__item img {
+    margin-top: 30px;
+  }
+}
+
+@media (max-width: 1280px) {
+  .container {
+    max-width: 940px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .container {
+    max-width: 750px;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    max-width: 700px;
+  }
+  .advantages {
+    padding: 30px 0;
+  }
+}
+
+@media (max-width: 480px) {
+  .container {
+    max-width: 320px;
+  }
+}
